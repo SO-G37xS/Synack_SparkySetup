@@ -46,6 +46,15 @@ Note: If your STIGs button on the AppGate SDP is red, sign into Appgate SDP and 
    
 ![Troubleshoot1](https://github.com/user-attachments/assets/3b62dd2c-07d7-42c1-ab93-343bbcb20587)
 
+### Windows Firewall
+1) IL5:Nexus JSF and IL5:ODIN applications in AppGate will show blocked and that a Firewall is required.
+2) Open Windows Defender Firewall.
+3) Enable firewall for Domain and Public networks.
+4) Log out of and back into AppGate.
+
+### Install DOD PKI Certs
+ 1) Download DOD PKI Certs from https://public.cyber.mil/announcement/new-dod-pki-cas-released/
+ 2) Unzip file and add CA certs from folder into browser of choice as a trusted CA.
 
 ## Setup AWS Workspaces
 1) Go to https://clients.amazonworkspaces.com, download your operating system application, and install.
